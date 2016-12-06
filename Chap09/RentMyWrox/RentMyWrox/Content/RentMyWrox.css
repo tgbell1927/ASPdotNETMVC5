@@ -1,0 +1,134 @@
+﻿body {
+    font-family: verdana;
+}
+#header {
+    background-color:#C40D42;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+#section {
+    width:750px;
+    float:left;
+    padding:10px;	 	 
+}
+#footer {
+    background-color:#C40D42;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+.dataentry input{
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.dataentry textarea{
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.dataentry label{
+    width: 75px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+#fuPicture {
+    margin-top: -20px;
+    margin-left: 120px;
+}
+
+#LeftNavigation ul 
+{ 
+    list-style:none;
+    margin:0;
+    padding:0;
+    width:auto; 
+}
+
+#LeftNavigation a 
+{ 
+    color: #C40D42;
+    text-decoration: none;
+    white-space: nowrap;
+    display: block; 
+}
+
+ul.level1 .selected
+{
+    /* Defines the appearance of active menu items. */
+    background-color: white;
+    color: #C40D42;
+    padding-right: 15px;
+    padding-left: 8px;
+}
+
+a.level1
+{
+    /* Adds some white space to the left of the main menu item text.
+    !important is used to overrule the in-line CSS that the menu generates */
+    padding-left: 5px !important;
+    padding-right: 15px;
+}
+
+a.level1:hover
+{
+    /* Defines the hover style for the main and sub items. */
+    background-color: #509EE7;
+} 
+.productname
+{
+    color: #C40D42;
+    font-size: x-large;
+}
+.inlinelink
+{
+    margin-left:25px;
+    color: #C40D42;
+}
+.listprice
+{
+    float:right;
+    color: #C40D42;
+    font-size: x-large;
+    text-align:right;
+}
+.listtitle
+{
+    background-color: #F8B6C9;
+    padding:5px;
+    width:750px;
+}
+.detailtitle
+{
+    background-color: #F8B6C9;
+    padding:5px;
+    width: 950px;
+}
+.textwrap
+{
+    float: right;
+    margin: 10px;
+}
+.checkedout
+{
+    font-weight:bold;
+    color: #C40D42;
+}
+
+
+
+
+

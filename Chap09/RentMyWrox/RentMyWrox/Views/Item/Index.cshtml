@@ -1,0 +1,25 @@
+﻿@model IEnumerable<RentMyWrox.Models.Item>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@foreach (var item in Model)
+{
+    <div>
+        <div class="listtitle">
+            <span class="productname">@item.Name</span>
+            <span class="listprice">@item.Cost.ToString("C")</span>
+        </div>
+        <p>
+            @item.Description.Substring(0, 250)
+            @if (item.Description.Length > 250)
+            { <span>...</span> }
+            @Html.ActionLink("Full details", "Details", new { @item.Id },
+                new { @class = "inlinelink" })
+            <a class="inlinelink" href="">Add to Cart</a>
+        </p>
+    </div>
+}
+
+
